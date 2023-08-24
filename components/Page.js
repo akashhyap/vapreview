@@ -15,7 +15,7 @@ const Page = ({ blok }) => {
     }
   };
   return (
-    <div className={`${maxWidth(blok.maxWidth)} py-10`} {...storyblokEditable(blok)}>
+    <div className={`${maxWidth(blok.maxWidth)}`} {...storyblokEditable(blok)}>
       {blok.body.map((nestedBlok) => (
         <StoryblokComponent blok={nestedBlok} key={nestedBlok._uid} />
       ))}
