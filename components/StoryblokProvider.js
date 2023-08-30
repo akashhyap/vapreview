@@ -23,6 +23,7 @@ import Config from "./Config";
 import Menu from "./Menu";
 import Submenu from "./Submenu";
 import Footer from "./Footer";
+import Contact from "./Contact";
 import StoryblokMenuComponent from "./StoryblokMenuComponent";
 
 /** 3. Initialize it as usual */
@@ -51,6 +52,7 @@ storyblokInit({
     titleH2: TitleH2,
     titleH3: TitleH3,
     button: Button,
+    contact: Contact,
   },
 });
 
